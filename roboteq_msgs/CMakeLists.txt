@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(roboteq_msgs)
 
 find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
@@ -8,6 +8,7 @@ add_message_files(
   FILES
   Command.msg
   Feedback.msg
+  Feedbackcan.msg
   Status.msg
 )
 
